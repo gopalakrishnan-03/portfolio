@@ -114,7 +114,7 @@ header .user img {
     font-size: 22px;
     color: #0EF0EF;
     font-weight: 600px;
-    /* padding-top: 4px; */
+    margin-top: 4px; 
     position: relative;
     overflow: hidden;
     z-index: 0;
