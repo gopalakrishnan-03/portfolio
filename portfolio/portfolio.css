@@ -131,6 +131,7 @@ header .user img {
     border-left: 3px solid #0EF0EF;
     animation:text 3s steps(18) infinite ;
     transition: .4s ease;
+    z-index: -999;
 }
 @keyframes text {
 
