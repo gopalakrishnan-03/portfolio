@@ -117,7 +117,7 @@ header .user img {
     /* padding-top: 4px; */
     position: relative;
     overflow: hidden;
-    
+    z-index: 0;
 }
 
 .name p::after{
