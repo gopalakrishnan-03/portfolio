@@ -837,7 +837,7 @@ background: radial-gradient(to bottom left, rgba(14, 240, 239, 1.0), rgba(1, 1, 
 @media screen and (min-width : 320px) and (max-width : 480px) {
 
     html {
-        font-size: 70%;
+        font-size: 75%;
     }
 
     section {
