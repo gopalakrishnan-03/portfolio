@@ -560,7 +560,7 @@ span {
 }
 
 .contact-detail:hover {
-    outline:none;
+    border:none;
     background-color: #e3e3e3;
     color: #000;
 }
