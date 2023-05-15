@@ -625,19 +625,17 @@ span {
 .iconTop a i{
     
     font-size: 20px;
-    color: #0EF0EF;
-    padding: 4px;
+    padding: 4px 6px;
     border-radius: 4px;
-    color: #0EF0EF;
-    background-color: #000;
-    border: 2px solid #1a1a1a;
-    
+    color: #000;
+    background-color: ##0EF0EF;
+    border: 2px solid #0EF0EF;
+    box-shadow: 0 0 1rem ##0EF0EF;
 }
 .iconTop a i:hover{
-    color: #000;
-    background-color: #0EF0EF;
-    border: 2px solid #0EF0EF;
-    box-shadow: 0 0 1rem #0EF0EF;
+    color: #0EF0EF;
+    background-color: #000;
+    border: 3px solid #0EF0EF;
 }
             /************ Contact Section End **************/
 
@@ -776,7 +774,7 @@ background: radial-gradient(to bottom left, rgba(14, 240, 239, 1.0), rgba(1, 1, 
                 /****** Project Section ******/
 
     .project-contant {
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
 
