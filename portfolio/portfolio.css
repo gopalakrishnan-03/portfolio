@@ -628,9 +628,9 @@ span {
     padding: 4px 6px;
     border-radius: 4px;
     color: #000;
-    background-color: ##0EF0EF;
+    background-color: #0EF0EF;
     border: 2px solid #0EF0EF;
-    box-shadow: 0 0 1rem ##0EF0EF;
+    box-shadow: 0 0 1rem #0EF0EF;
 }
 .iconTop a i:hover{
     color: #0EF0EF;
