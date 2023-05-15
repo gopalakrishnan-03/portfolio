@@ -730,7 +730,7 @@ background: radial-gradient(to bottom left, rgba(14, 240, 239, 1.0), rgba(1, 1, 
     }
 
     header {
-        left: -100%;
+        left: -120%;
         width: 100vw;
     }
 
@@ -740,7 +740,7 @@ background: radial-gradient(to bottom left, rgba(14, 240, 239, 1.0), rgba(1, 1, 
     header .navbar ul {
         display:flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
        
     }
     header .navbar ul li a{
