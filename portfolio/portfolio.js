@@ -27,7 +27,9 @@ window.onscroll = ()=>{
             document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
         });
       };
-    });      
+    });  
+       menu.classList.remove('active');
+       header.classList.remove('toggle');
 };
 
 
