@@ -27,34 +27,13 @@ window.onscroll = ()=>{
             document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
         });
       };
-    });
-
-        menu.classList.remove('active');
-        header.classList.remove('toggle');
+    });      
 };
 
-ScrollReveal({
-    reset:true,
-    distance: '80px',
-    duration: 2000,
-    delay: 200
-});
-
-ScrollReveal().reveal('.home-contant,.skill-contant',{origin:'top'});
-
-ScrollReveal().reveal('.h1');
 
 
 
-// var  about = document.getElementById('.about-heading');
-// var  personal = document.getElementById('.personal-body');
-// var  education = document.getElementById('.education-body');
 
-//     function education(){
-//         personal.style.left = "-50%";
-//         education.style.left = "50px";
-//         about.style.left = "110px";
-//     };
 
 
 
