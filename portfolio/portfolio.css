@@ -229,7 +229,7 @@ header.toggle{
     align-items: center;
     background-image: radial-gradient(circle at top right, rgb(0,0,0) 0%, rgb(0,0,0) 48%,rgb(72, 7, 149) 48%, rgb(72, 7, 149) 53%,rgb(109, 5, 178) 53%, rgb(109, 5, 178) 56%,rgb(145, 2, 208) 56%, rgb(145, 2, 208) 69%,rgb(181, 0, 237) 69%, rgb(181, 0, 237) 100%);
     background-position: center;
-    object-fit: cover;
+    background-size: cover;
     width:100vw;
 }
 .home-contant h3 {
@@ -250,8 +250,8 @@ header.toggle{
 .text.sec-text{
     position: relative;
     color: #0EF0EF;
-    
     overflow: hidden;
+    margin-top:5px;
 }
 
 .text.sec-text::after{
@@ -261,7 +261,7 @@ header.toggle{
     left:0;
     height: 100%;
     width: 100%;
-    background-color: #111;
+    background-color: #000;
     border-left: 3px solid #0EF0EF;
     animation:typing 3s steps(18) infinite ;
     transition: .4s ease;
