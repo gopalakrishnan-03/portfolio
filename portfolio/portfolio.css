@@ -504,6 +504,7 @@ span {
     width: 50%;
 }
 .personal-body p{
+    text-transform: none;
     padding: 10px 10px;
     margin: 10px;
 }
@@ -730,7 +731,7 @@ background: radial-gradient(to bottom left, rgba(14, 240, 239, 1.0), rgba(1, 1, 
     }
 
     header {
-        left: -120%;
+        left: -140%;
         width: 100vw;
     }
 
@@ -740,9 +741,8 @@ background: radial-gradient(to bottom left, rgba(14, 240, 239, 1.0), rgba(1, 1, 
     header .navbar ul {
         display:flex;
         flex-direction: row;
-        justify-content: flex-start;
-       
     }
+    
     header .navbar ul li a{
         font-size: 20px;
         padding: 4px 40px;
