@@ -741,7 +741,7 @@ background: radial-gradient(to bottom left, rgba(14, 240, 239, 1.0), rgba(1, 1, 
     header .navbar ul {
         display:flex;
         flex-direction: row;
-        margin:5px
+        margin:2px
     }
     
     header .navbar ul li a{
