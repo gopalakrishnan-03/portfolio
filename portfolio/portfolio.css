@@ -242,13 +242,12 @@ header.toggle{
     margin:2px;
     font-size: 24px;
     text-transform: none;
-    z-index: 0;
 }
 
 .text.sec-text{
     position: relative;
     color: #0EF0EF;
-    
+    z-index: 0;
 }
 
 .text.sec-text::after{
