@@ -216,7 +216,6 @@ header.toggle{
     padding: 3px 6px;
     cursor: pointer;
     font-size: 2rem;
-    z-index: 1000;
     display: none;
 }
             /************ Header Section End **************/      
