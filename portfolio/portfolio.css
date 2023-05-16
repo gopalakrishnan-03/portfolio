@@ -117,10 +117,9 @@ header .user img {
     margin-top: 4px;
     position: relative;
     overflow: hidden;
-    z-index: 999;
 }
 
-/*.name p::after{
+.name p::after{
     content: '';
     position: absolute;
     top: 0;
@@ -131,8 +130,7 @@ header .user img {
     border-left: 3px solid #0EF0EF;
     animation:text 3s steps(18) infinite ;
     transition: .4s ease;
-    z-index: 0;
-}*/
+}
 @keyframes text {
 
     40%,60%{
@@ -251,7 +249,7 @@ header.toggle{
     color: #0EF0EF;
 }
 
-.text.sec-text::after{
+/*.text.sec-text::after{
     content: '';
     position: absolute;
     top: 0;
@@ -262,7 +260,7 @@ header.toggle{
     border-left: 3px solid #0EF0EF;
     animation:typing 3s steps(18) infinite ;
     transition: .4s ease;
-}
+}*/
 @keyframes typing {
 
     40%,60%{
