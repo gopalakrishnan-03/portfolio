@@ -117,7 +117,7 @@ header .user img {
     margin-top: 4px;
     position: relative;
     overflow: hidden;
-    z-index: 0;
+    z-index: 999;
 }
 
 .name p::after{
@@ -131,7 +131,7 @@ header .user img {
     border-left: 3px solid #0EF0EF;
     animation:text 3s steps(18) infinite ;
     transition: .4s ease;
-    z-index: 999;
+    z-index: 0;
 }
 @keyframes text {
 
