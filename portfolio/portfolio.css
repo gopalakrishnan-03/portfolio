@@ -906,7 +906,6 @@ background: radial-gradient(to bottom left, rgba(14, 240, 239, 1.0), rgba(1, 1, 
     .menu {
         display: block;
         right: 1rem;
-        z-index: 1000;
     }
     
 
