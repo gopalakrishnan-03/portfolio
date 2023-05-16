@@ -248,6 +248,7 @@ header.toggle{
     position: relative;
     color: #0EF0EF;
     z-index: 0;
+    overflow: hidden;
 }
 
 .text.sec-text::after{
