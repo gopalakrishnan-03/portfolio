@@ -694,13 +694,13 @@ background: radial-gradient(to bottom left, rgba(14, 240, 239, 1.0), rgba(1, 1, 
 
 .reveal{
     position: relative;
-    transform: translateX(200px);
+    transform: translateY(150px);
     opacity: 0;
-    transition: all 1.5s ease ;
+    transition: all 2s ease ;
 }      
 
 .reveal.active{
-    transform: translateX(0);
+    transform: translateY(0);
     opacity: 1;
 }  
 
