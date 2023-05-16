@@ -120,7 +120,7 @@ header .user img {
     z-index: 999;
 }
 
-.name p::after{
+/*.name p::after{
     content: '';
     position: absolute;
     top: 0;
@@ -132,7 +132,7 @@ header .user img {
     animation:text 3s steps(18) infinite ;
     transition: .4s ease;
     z-index: 0;
-}
+}*/
 @keyframes text {
 
     40%,60%{
