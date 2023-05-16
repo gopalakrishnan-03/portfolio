@@ -242,7 +242,7 @@ header.toggle{
     margin:2px;
     font-size: 24px;
     text-transform: none;
-    z-index: 999;
+    z-index: 0;
 }
 
 .text.sec-text{
@@ -261,7 +261,7 @@ header.toggle{
     border-left: 3px solid #0EF0EF;
     animation:typing 3s steps(18) infinite ;
     transition: .4s ease;
-    z-index: 0;
+    z-index: -999;
 }
 @keyframes typing {
 
