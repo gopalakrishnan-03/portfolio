@@ -261,7 +261,7 @@ header.toggle{
     border-left: 3px solid #0EF0EF;
     animation:typing 3s steps(18) infinite ;
     transition: .4s ease;
-    z-index: -999;
+    z-index: 999;
 }
 @keyframes typing {
 
