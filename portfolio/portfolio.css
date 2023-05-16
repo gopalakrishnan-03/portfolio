@@ -689,8 +689,21 @@ background: radial-gradient(to bottom left, rgba(14, 240, 239, 1.0), rgba(1, 1, 
     background-color: #0EF0EF;
     color: #000;
     box-shadow: 0 0 1rem #0EF0EF;
-}
+}      
              /************ Footer End **************/
+
+.reveal{
+    position: relative;
+    transform: translateX(-200px);
+    opacity: 0;
+    transition: all 1.5s ease ;
+}      
+
+.reveal.active{
+    transform: translateX(0);
+    opacity: 1;
+}  
+
 
 /*************************************************************************************************************************************                                    *-*-*-*-*-*-*-*-*-*-*-*-* MEDIA QUERIES *-*-*-*-*-*-*-*-*-*-*-*-* ***************************************************************************************************************************************/ 
 
