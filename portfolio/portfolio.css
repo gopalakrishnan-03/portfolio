@@ -166,7 +166,7 @@ header .navbar ul li a {
 }
 
 header .navbar ul li a:hover,
-header .navbar ul li a.active,:focus {
+header .navbar ul li a.active {
     background: #0EF0EF;
     border: 2px solid #0EF0EF;
     color: #000;
@@ -481,7 +481,7 @@ span {
 }
 
 .about-head{
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
     margin: 6px;
     border: 2px solid #1a1a1a;
@@ -515,8 +515,11 @@ span {
 .about-contant.is-active{
     display: block;
 }
-
+.personal {
+    margin-top:40px;
+}
 .personal p{
+    font-size: 18px;
     padding: 10px 10px;
     margin: 10px;
 }
@@ -1016,6 +1019,7 @@ footer {
     }
 
     .contact-body p{
+        margin:auto;
        word-wrap: break-word;    
     }
 }
