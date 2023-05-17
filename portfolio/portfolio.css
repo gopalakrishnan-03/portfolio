@@ -631,7 +631,7 @@ span {
     
     position:relative;
     top: 30px;
-    bottom: 30px;
+    bottom: 20px;
     right: 20px;
     margin-left: 95%;
 }
@@ -827,6 +827,9 @@ footer {
         padding: 4px;
 
     }
+    .iconTop a{
+        top:20px;
+     }
 }
             /************ 481px-768px **************/
 
