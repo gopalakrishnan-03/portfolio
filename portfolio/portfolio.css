@@ -907,6 +907,11 @@ footer {
         width: 40%;
         margin: 20px;
     }
+    .iconTop a{
+
+        top:20px;
+
+     }
 }
 
             /************ 320px-480px **************/
@@ -1024,4 +1029,8 @@ footer {
         
        word-wrap: break-word;    
     }
+    .iconTop a{
+
+        top:20px;
+     }
 }
