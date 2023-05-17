@@ -33,31 +33,31 @@ window.onscroll = ()=>{
 };
 
 
-//window.addEventListener("scroll", () => {
+window.addEventListener("scroll", () => {
 
- // var reveals = document.querySelectorAll(".reveal");
+  var reveals = document.querySelectorAll(".reveal");
 
-  //for (i = 0; i < reveals.length; i++) {
+   for (i = 0; i < reveals.length; i++) {
 
-   // var windowHeight = window.innerHeight;
+    var windowHeight = window.innerHeight;
 
-   // var revealTop = reveals[i].getBoundingClientRect().top;
+    var revealTop = reveals[i].getBoundingClientRect().top;
 
-  //  var revealPoint =150;
+    var revealPoint =150;
 
-  //  if (revealTop < windowHeight - revealPoint) {
+    if (revealTop < windowHeight - revealPoint) {
 
-     // reveals[i].classList.add("active");
+      reveals[i].classList.add("active");
 
-    //} else {
+    } else {
 
-     // reveals[i].classList.remove("active");
+      reveals[i].classList.remove("active");
 
-  //  }
+    }
 
-//  }
+  }
 
-//});
+});
 
 
 
