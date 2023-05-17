@@ -552,6 +552,7 @@ span {
     background-color: #0EF0EF;
     border-radius: 50%;
     border: 2px solid #0EF0EF;
+    box-shadow: 0 0 1rem #0EFOEF;
 }
 
 @keyframes moveline {
@@ -990,7 +991,7 @@ background: radial-gradient(to bottom left, rgba(14, 240, 239, 1.0), rgba(1, 1, 
 
     .contact-contant {
         width: 100%;
-        margin: 10px;
+        margin: auto;
     }
 
     .contact-detail {
@@ -1005,7 +1006,11 @@ background: radial-gradient(to bottom left, rgba(14, 240, 239, 1.0), rgba(1, 1, 
     .contact-image {
         width: 52%;
     }
+    .contact-body{
+        width:100%;
+    }
     .contact-body p{
+        
        word-wrap: break-word;
         
     }
