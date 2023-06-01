@@ -597,7 +597,7 @@ span {
     box-shadow: 0 0 1rem #000000f4;
     cursor: pointer;
     transition: .3s linear;
-    position: relative;
+    
 }
 
 .contact-detail:hover {
@@ -644,7 +644,7 @@ span {
     background-color: #0EF0EF;
     border: 2px solid #0EF0EF;
     box-shadow: 0 0 1rem #0EF0EF;
-    
+    position: absolute;
 }
 .iconTop a i:hover{
     color: #0EF0EF;
