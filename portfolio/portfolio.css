@@ -173,7 +173,7 @@ header .navbar ul li a.active {
     box-shadow: 0 0 1rem #0EF0EF;
 }
 
-header.toggle{
+header.active{
     left:0;
 }
 
