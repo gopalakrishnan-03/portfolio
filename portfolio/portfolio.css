@@ -1027,7 +1027,7 @@ footer {
 
     .contact-body p{
         
-       word-wrap: break-word;    
+      /* word-wrap: break-word; */
     }
     .iconTop a{
 
