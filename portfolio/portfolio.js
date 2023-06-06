@@ -5,7 +5,8 @@ const menu = document.querySelector('.menu');
 const header = document.querySelector('header');
 
 menu.addEventListener('click',()=>{
-   header.classList.toggle('toggle');
+   header.classList.toggle('active');
+   menu.classList.toggle('active');
 
 });
 
@@ -30,8 +31,9 @@ window.onscroll = ()=>{
         });
       };
     });
-        menu.classList.remove('active');
-        header.classList.remove('toggle');
+        
+        menu.classList.remove('change');
+        header.classList.remove('active');
 };
 
 
