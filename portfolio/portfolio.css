@@ -958,6 +958,7 @@ footer {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
     }
 
     .logo img {
@@ -1027,7 +1028,7 @@ footer {
 
     .contact-body p{
         
-      /* word-wrap: break-word; */
+       word-wrap: break-word; 
     }
     .iconTop a{
 
